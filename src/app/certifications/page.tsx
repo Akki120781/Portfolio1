@@ -37,6 +37,34 @@ const certifications = [
     image: "/certifications/cert-nodejs-udemy.jpg",
     link: "#",
   },
+  {
+    title: "Full Stack Developer Bootcamp - Master Frontend to Backend",
+    issuer: "GeeksforGeeks",
+    date: "2026",
+    image: "/certifications/cert-gfg-fullstack.png",
+    link: "#",
+  },
+  {
+    title: "MongoDB Schema Design Patterns and Anti-patterns",
+    issuer: "MongoDB",
+    date: "2026",
+    image: "/certifications/cert-skillscert.png",
+    link: "https://www.credly.com/badges/3fffffc3-7e9f-4a09-a2aa-6003c1c0bf9a",
+  },
+  {
+    title: "Digital Skills: Social Media",
+    issuer: "Accenture",
+    date: "2026",
+    image: "/certifications/cert-social-media.png",
+    link: "#",
+  },
+  {
+    title: "Placement Ace: Java Bootcamp",
+    issuer: "Lovely Professional University",
+    date: "2025",
+    image: "/certifications/cert-lpu-java.png",
+    link: "#",
+  },
 ];
 
 export default function CertificationsPage() {

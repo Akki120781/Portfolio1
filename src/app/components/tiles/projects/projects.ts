@@ -54,7 +54,7 @@ export const projectsData = [
     name: "Portfolio",
     description:
       "A personal portfolio website designed to display my development skills and projects. This highlights my proficiency in Angular, and more.",
-    image: "/projects/portfolio.webp",
+    image: "/projects/portfolio-new.png",
     github: "https://github.com/Akki120781/Portfolio1",
     view: "",
     workStatus: true,
