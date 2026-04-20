@@ -81,9 +81,9 @@ const education = [
 
 const achievements = [
   {
-    title: "500+ Coding Problems Solved",
-    issuer: "LeetCode, GeeksforGeeks, Coding Ninjas",
-    date: "Arrays, graphs, trees, DP, greedy",
+    title: "🏆 Solved 300+ advanced problems on LeetCode/Codeforces",
+    issuer: "Competitive Programming",
+    date: "Algorithms & Data Structures",
   },
   {
     title: "4 Stars Python",
@@ -96,8 +96,8 @@ const achievements = [
     date: "2023",
   },
   {
-    title: "Cleared NDA Entrance Exam",
-    issuer: "UPSC",
+    title: "Participated in Smart India Hackathon",
+    issuer: "Govt. of India",
     date: "2023",
   },
 ];
