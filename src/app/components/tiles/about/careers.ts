@@ -31,7 +31,7 @@ export const careersData: CareerEntry[] = [
     period: "Jan 2025 – Present",
     badge: "Current",
     current: true,
-    logo: "/company/iit-ropar.jpg",
+    logo: "/company/iit-ropar.png",
     overview:
       "Developing scalable backend services using Node.js and Express.js with a focus on reliable data flow and clean API design. Working with MongoDB for schema design and CRUD operations alongside MySQL for structured data.",
     myRole:
