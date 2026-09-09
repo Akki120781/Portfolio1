@@ -1,8 +1,62 @@
 export const projectsData = [
   {
+    name: "CampusFlow – School Management ERP",
+    description:
+      "Production school ERP actively piloted in a live school environment with role-based dashboards for Admin, Teacher, Student, and Parent users. Designed Firebase Authentication with custom registration IDs and Firestore data model managing attendance, timetables, assignments, fees, and payroll. Integrated Razorpay for online fee collection with partial-payment support and automated monthly accrual; built attendance-linked payroll calculation with admin approval workflows.",
+    image: "/projects/campusflow-erp.png",
+    github: false,
+    view: "https://campusflow.smrpublicschool.in/",
+    workStatus: true,
+    date: "Present",
+    demo: false,
+    personal: false,
+    tech: [
+      { name: "React.js", image: "/tech/react.svg" },
+      { name: "Tailwind", image: "/tech/tailwindcss.svg" },
+      { name: "Firebase", image: "/tech/supabase.svg" },
+      { name: "TypeScript", image: "/tech/typescript.svg" },
+    ],
+  },
+  {
+    name: "The Council – AI Deliberation Arena",
+    description:
+      "Autonomous multi-agent consensus and deliberation platform powered by Groq SDK and LLaMA 3.3 70B. Features 5 distinct AI persona archetypes (Chancellor, Cynical VC, Deep-Tech Architect, UX Strategist, Devil's Advocate) that dynamically cross-examine startup theses with 400-800+ tokens/sec SSE streaming, live speech synthesis, user interjections, and automated 4-quadrant SWOT executive dossier generation.",
+    image: "/projects/ai-agent-council.jpg",
+    github: "https://github.com/Akki120781/ai-agent",
+    view: false,
+    workStatus: true,
+    date: "Sep 2026",
+    demo: false,
+    personal: true,
+    tech: [
+      { name: "Groq / LLMs", image: "/tech/ollama.svg" },
+      { name: "React.js", image: "/tech/react.svg" },
+      { name: "Node.js", image: "/tech/nodejs.svg" },
+      { name: "Tailwind", image: "/tech/tailwindcss.svg" },
+    ],
+  },
+  {
+    name: "Stratford Academy – School Web Portal",
+    description:
+      "Modern web portal for Stratford Academy Bagli (Dewas) featuring admissions inquiry modals, academic wing programmes (Pre-Nursery to X), 32+ event video & media directory with category filtering, Google Drive photo archive integration, WhatsApp broadcast sharing, live announcements ticker, and interactive campus facilities tour.",
+    image: "/projects/stratford-school.png",
+    github: "https://github.com/Akki120781/smr-",
+    view: "https://stratford-school.vercel.app/",
+    workStatus: true,
+    date: "2026",
+    demo: false,
+    personal: false,
+    tech: [
+      { name: "React.js", image: "/tech/react.svg" },
+      { name: "Tailwind", image: "/tech/tailwindcss.svg" },
+      { name: "Vercel", image: "/tech/vercel-icon-dark.svg" },
+      { name: "JavaScript", image: "/tech/js.svg" },
+    ],
+  },
+  {
     name: "Stock Dashboard",
     description:
-      "Full-stack financial platform integrating live stock market APIs for real-time price and trend data. Scalable distributed backend with Node.js + Express.js. MongoDB with indexing and query optimization. Frontend data reconciliation logic to validate incoming API data.",
+      "Full-stack financial analytics platform handling 50+ concurrent users with sub-1-second response times under load. Integrated live stock market APIs with distributed Node.js + Express.js backend and MongoDB indexing. Implemented Redis caching cutting external API calls by 70%; frontend data reconciliation logic validates incoming API data against MongoDB records before display.",
     image: "/projects/stock-dashboard.jpg",
     github: "https://github.com/Akki120781",
     view: "https://stock-dashboard-three-chi.vercel.app",
@@ -11,10 +65,11 @@ export const projectsData = [
     demo: false,
     personal: true,
     tech: [
-      { name: "React.js", image: "/tech/nextjs2.svg" },
+      { name: "React.js", image: "/tech/react.svg" },
       { name: "Node.js", image: "/tech/nodejs.svg" },
-      { name: "Express.js", image: "/tech/nodejs.svg" },
+      { name: "Express.js", image: "/tech/express.svg" },
       { name: "MongoDB", image: "/tech/mongodb.svg" },
+      { name: "Redis", image: "/tech/redis.svg" },
     ],
   },
   {
@@ -140,7 +195,7 @@ export const projectsData = [
   {
     name: "Itrend Commerce",
     description:
-      "An API-driven platform integrating Amazon Ads, and real-time inventory synchronization, and efficient large-scale data processing.",
+      "Multi-tenant Laravel backend integrating Amazon SP-API and Ads API for real-time inventory sync across seller accounts with row-level security. Engineered data-transformation pipeline normalizing inconsistent API payloads with diff-checking logic that cut manual reconciliation by 60%. Implemented background job queuing for large-scale async operations and integrated Ollama for AI-assisted data enrichment.",
     image: "/projects/itrend-sp.webp",
     github: false,
     view: false,

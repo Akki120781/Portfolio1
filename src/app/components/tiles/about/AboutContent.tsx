@@ -63,7 +63,7 @@ const skills = ["Software Engineer", "Full Stack", "Data Science", "Machine Lear
 
 const education = [
   {
-    degree: "B.Tech CSE",
+    degree: "B.Tech Computer Science & Engineering (CGPA: 7.8)",
     institute: "Lovely Professional University, Punjab",
     period: "Aug 2023 - May 2027",
   },
@@ -81,24 +81,24 @@ const education = [
 
 const achievements = [
   {
-    title: "🏆 Solved 300+ advanced problems on LeetCode/Codeforces",
-    issuer: "Competitive Programming",
-    date: "Algorithms & Data Structures",
+    title: "🏆 Ranked Top 5% Worldwide on BRAIN Platform",
+    issuer: "WorldQuant Research Consultants",
+    date: "2026",
   },
   {
-    title: "4 Stars Python",
-    issuer: "HackerRank",
-    date: "2024",
+    title: "🚀 Shipped 13+ Live Applications | Won 4 Hackathons",
+    issuer: "Full Stack, Data & Backend Domains",
+    date: "2024 - 2026",
   },
   {
-    title: "97.8 Percentile",
-    issuer: "JEE Mains",
-    date: "2023",
+    title: "⚡ Solved 500+ Algorithmic Problems on LeetCode",
+    issuer: "DSA, Graphs, Trees & Dynamic Programming",
+    date: "Competitive Programming",
   },
   {
-    title: "Participated in Smart India Hackathon",
-    issuer: "Govt. of India",
-    date: "2023",
+    title: "🤝 Led Outreach at Tatva (LPU) - ~₹3L Sponsorships",
+    issuer: "Partnerships with 10+ Colleges across North India",
+    date: "2024 - 2025",
   },
 ];
 
@@ -239,7 +239,7 @@ export default function AboutContent({ testimonials: initialTestimonials = EMPTY
                 </div>
               </div>
               <p className="mt-3 text-gray-500 dark:text-gray-300 text-xs leading-relaxed sm:text-sm md:text-base max-w-[900px]">
-                I'm a Computer Science undergrad at Lovely Professional University with hands-on experience in full-stack development and machine learning. I build end-to-end applications using React, Node.js, and MongoDB, and love working on data pipelines, predictive models, and financial dashboards. Currently interning at IIT Ropar.
+                I'm a Computer Science undergrad at Lovely Professional University with hands-on experience in full-stack development, quantitative research, and machine learning. I build end-to-end applications and data pipelines, working with algorithmic trading signals, financial platforms, and scalable backends. Currently a Quantitative Research Consultant at WorldQuant, previously interned at IIT Ropar.
               </p>
 
               <div className="mt-4 flex flex-wrap gap-2.5">
