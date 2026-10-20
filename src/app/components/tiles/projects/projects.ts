@@ -1,5 +1,24 @@
 export const projectsData = [
   {
+    name: "SafeBox – Ephemeral Sandboxed Code Execution Engine",
+    description:
+      "High-throughput, sub-millisecond cold-start execution sandbox for autonomous AI agents. Features multi-tier containment with pre-execution AST static analysis blocking shell escapes and secret exfiltration, hermetic V8 WASM isolate (<1ms spin-up) for JavaScript/TypeScript, quarantined ephemeral process jails for Python 3.12 with wiped host credentials, and hardware watchdog timers enforcing hard CPU/memory quotas and SIGKILL process-tree termination.",
+    image: "/projects/safebox.png",
+    github: "https://github.com/Akki120781/safebox",
+    view: "http://localhost:4000",
+    workStatus: true,
+    date: "Oct 2026",
+    demo: false,
+    personal: true,
+    tech: [
+      { name: "Node.js", image: "/tech/nodejs.svg" },
+      { name: "Python", image: "/tech/python.svg" },
+      { name: "TypeScript", image: "/tech/typescript.svg" },
+      { name: "Linux / Cgroups", image: "/tech/linux.svg" },
+      { name: "REST API", image: "/tech/postman.svg" },
+    ],
+  },
+  {
     name: "DocuRAG - Intelligent Documentation Assistant",
     description:
       "Production-ready Retrieval-Augmented Generation assistant for technical documentation, source code, and PDFs. Features header-aware hierarchical chunking, hybrid vector retrieval (Dense Cosine + BM25Okapi) with dynamic alpha fusion, multi-provider LLM support (Gemini, OpenAI, local offline), and strict citation provenance with section attribution.",
