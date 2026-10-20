@@ -1,4 +1,22 @@
-export const projectsData = [
+﻿export const projectsData = [
+  {
+    name: "DocuRAG - Intelligent Documentation Assistant",
+    description:
+      "Production-ready Retrieval-Augmented Generation assistant for technical documentation, source code, and PDFs. Features header-aware hierarchical chunking, hybrid vector retrieval (Dense Cosine + BM25Okapi) with dynamic alpha fusion, multi-provider LLM support (Gemini, OpenAI, local offline), and strict citation provenance with section attribution.",
+    image: "/projects/rag-assistant.png",
+    github: "https://github.com/Akki120781/-RAG-documentation-assistant",
+    view: false,
+    workStatus: true,
+    date: "Oct 2026",
+    demo: false,
+    personal: true,
+    tech: [
+      { name: "Python", image: "/tech/python.svg" },
+      { name: "FastAPI", image: "/tech/python.svg" },
+      { name: "Gemini / OpenAI", image: "/tech/openai.svg" },
+      { name: "Tailwind", image: "/tech/tailwindcss.svg" },
+    ],
+  },
   {
     name: "CampusFlow – School Management ERP",
     description:
