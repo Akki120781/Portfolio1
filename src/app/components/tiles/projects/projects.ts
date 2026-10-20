@@ -54,6 +54,24 @@ export const projectsData = [
     ],
   },
   {
+    name: "India Air Quality Monitoring Dashboard",
+    description:
+      "Interactive Power BI analytics dashboard for real-time Air Quality Index (AQI) tracking across 516+ monitoring stations in India. Automated API data ingestion pipeline built with Python and Pandas to fetch and clean multi-pollutant metrics (PM2.5, PM10, CO, NO2, O3, SO2, NH3). Features geospatial Esri station mapping, dynamic state and severity category slicers, and pollutant breakdown analytics.",
+    image: "/projects/air-quality-analyzer.png",
+    github: "https://github.com/Akki120781/Air-Quality-Analyzer-main",
+    view: false,
+    workStatus: true,
+    date: "Dec 2025",
+    demo: false,
+    personal: true,
+    tech: [
+      { name: "Power BI", image: "/tech/powerbi.svg" },
+      { name: "Python", image: "/tech/python.svg" },
+      { name: "Pandas", image: "/tech/pandas.svg" },
+      { name: "REST API", image: "/tech/postman.svg" },
+    ],
+  },
+  {
     name: "Stratford Academy – School Web Portal",
     description:
       "Modern web portal for Stratford Academy Bagli (Dewas) featuring admissions inquiry modals, academic wing programmes (Pre-Nursery to X), 32+ event video & media directory with category filtering, Google Drive photo archive integration, WhatsApp broadcast sharing, live announcements ticker, and interactive campus facilities tour.",
