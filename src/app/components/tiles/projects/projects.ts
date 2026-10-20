@@ -1,4 +1,4 @@
-﻿export const projectsData = [
+export const projectsData = [
   {
     name: "DocuRAG - Intelligent Documentation Assistant",
     description:
@@ -39,7 +39,7 @@
     name: "The Council – AI Deliberation Arena",
     description:
       "Autonomous multi-agent consensus and deliberation platform powered by Groq SDK and LLaMA 3.3 70B. Features 5 distinct AI persona archetypes (Chancellor, Cynical VC, Deep-Tech Architect, UX Strategist, Devil's Advocate) that dynamically cross-examine startup theses with 400-800+ tokens/sec SSE streaming, live speech synthesis, user interjections, and automated 4-quadrant SWOT executive dossier generation.",
-    image: "/projects/ai-agent-council.jpg",
+    image: "/projects/ai-agent-council.png",
     github: "https://github.com/Akki120781/ai-agent",
     view: false,
     workStatus: true,
@@ -369,7 +369,7 @@
     name: "Expense Sharing System",
     description:
       "A modern web application designed to track and split expenses seamlessly.",
-    image: "/projects/expense-sharing.png",
+    image: "/projects/expense-sharing.gif",
     github: "https://github.com/Akki120781/expense-sharing-system",
     view: false,
     workStatus: false,
