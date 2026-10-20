@@ -4,7 +4,7 @@ export const projectsData = [
     description:
       "High-throughput, sub-millisecond cold-start execution sandbox for autonomous AI agents. Features multi-tier containment with pre-execution AST static analysis blocking shell escapes and secret exfiltration, hermetic V8 WASM isolate (<1ms spin-up) for JavaScript/TypeScript, quarantined ephemeral process jails for Python 3.12 with wiped host credentials, and hardware watchdog timers enforcing hard CPU/memory quotas and SIGKILL process-tree termination.",
     image: "/projects/safebox.png",
-    github: "https://github.com/Akki120781/safebox",
+    github: "https://github.com/Akki120781/safebox-",
     view: "http://localhost:4000",
     workStatus: true,
     date: "Oct 2026",
